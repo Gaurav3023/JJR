@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaInstagram} from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaInstagram, FaThreads } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
       </p>
       <ul className="list-unstyled">
         <li className="mb-4 d-flex align-items-center">
-          <FaPhone className="me-3" style={{ fontSize: '1.5rem', color: '', transform: 'scaleX(-1)' }} />
+          <FaPhone className="me-3" style={{ fontSize: '1.5rem', color: '', flip: true }} />
           <span className="fs-5"><strong>Phone:</strong></span>
           <a href="tel:416-371-0000" className="ms-2 fs-5 text-decoration-none" style={{ color: '#FF0000' }}>416-371-0000</a>
         </li>
@@ -23,6 +23,11 @@ const Contact = () => {
           <FaInstagram className="me-3" style={{ fontSize: '1.5rem', color: '#C13584' }} />
           <span className="fs-5"><strong>Instagram:</strong></span>
           <a href="https://www.instagram.com/jjr__construction" className="ms-2 fs-5 text-decoration-none" style={{ color: '#FF0000' }}>@jjr__construction</a>
+        </li>
+        <li className="mb-4 d-flex align-items-center">
+          <FaThreads className="me-3" style={{ fontSize: '1.5rem', color: 'black' }} />
+          <span className="fs-5"><strong>Threads:</strong></span>
+          <a href="https://www.threads.net/@jjr__construction" className="ms-2 fs-5 text-decoration-none" style={{ color: '#FF0000' }}>@jjr__construction</a>
         </li>
       </ul>
     </div>
