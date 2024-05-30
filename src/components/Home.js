@@ -17,9 +17,9 @@ const Home = () => {
       <div style={heroSectionStyle}></div>
 
       {/* Quote Section */}
-      <div className="quote-section py-3 text-center text-white" style={{backgroundColor: 'black'}}> {/* Added style attribute here */}
+      <div className="quote-section py-3 text-center text-white" style={{backgroundColor: 'black'}}>
         <div className="container">
-          <h1 className="mb-4">Your Dream Construction Starts Here</h1>
+          <h1 className="mb-4">Your Dream Property Construction, Starts Here</h1>
           <p className="lead">Get a free quote for top-notch construction services for residential and commercial projects.</p>
           <a href="/contact" className="btn btn-danger btn-lg mt-3">Contact Us</a>
         </div>
@@ -32,7 +32,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/4449/4449225.png" className="card-img-top" alt="Stairs" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1686932607/content/homeguide/homeguide-flagstone-steps-leading-to-a-home-front-door.jpg" className="card-img-top" alt="Stairs" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Stairs</strong></h5>
                 </div>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/7586/7586849.png" className="card-img-top" alt="Masonry" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTauv2c736DAyqAZ8zd9ePGe2M_NMpuGBAzIw&s" className="card-img-top" alt="Masonry" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Masonry</strong></h5>
                 </div>
@@ -48,29 +48,55 @@ const Home = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/7776/7776713.png" className="card-img-top" alt="Fencing" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjvrVykhG1zKqqrNcApuBFMp0EMzbPP0sMhw&s" className="card-img-top" alt="Fencing" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
-                  <h5 className="card-title"><strong>Brick Laying</strong></h5>
+                  <h5 className="card-title"><strong>Bricklaying</strong></h5>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/5846/5846702.png" className="card-img-top" alt="Masonry" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://www.build-review.com/wp-content/uploads/2021/07/Waterproofing.jpg" className="card-img-top" alt="Waterproofing" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Waterproofing</strong></h5>
                 </div>
               </div>
-            </div>  <div className="col-md-4 mb-4">
+            </div>
+            <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/9295/9295707.png" className="card-img-top" alt="Masonry" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://myelitelawncare.com/wp-content/uploads/2020/11/Elite-Lawn-Care-161204-145106-2-1500px-1024x683.jpg" className="card-img-top" alt="Snow Removal" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Snow Removal</strong></h5>
                 </div>
               </div>
-            </div>  <div className="col-md-4 mb-4">
+            </div>
+            <div className="col-md-4 mb-4">
               <div className="card">
-                <img src="https://cdn-icons-png.flaticon.com/128/14872/14872921.png" className="card-img-top" alt="Masonry" style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
+                <img src="https://www.thoughtco.com/thmb/gjMsD4xDBy7aIbZsJwLsfhqmvdA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-941748918-5c7f3654c9e77c00012f82f6.jpg" className="card-img-top" alt="Snow Removal" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <div className="card-body">
+                  <h5 className="card-title"><strong>Concrete</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUbr_8ETjsMBVFcSiBzWCfssMdMMzGsUn8w&s" className="card-img-top" alt="Hard Scaping" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <div className="card-body">
+                  <h5 className="card-title"><strong>Hardscaping</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1654717294/content/homeguide/homeguide-new-tuckpointing-of-a-brick-house-wall-up-close_nz2dh1.jpg" className="card-img-top" alt="Tuckpoint" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <div className="card-body">
+                  <h5 className="card-title"><strong>Tuckpoint</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://www.bowerpowerblog.com/wp-content/uploads/2018/07/Chainlink-fence-makeover-wood-panels-DIY-Bower-Power-7-2.jpg" className="card-img-top" alt="Tuckpoint" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Fencing</strong></h5>
                 </div>
@@ -92,3 +118,4 @@ const Home = () => {
 };
 
 export default Home;
+
