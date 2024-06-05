@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FaHome, FaInfoCircle, FaAddressBook } from 'react-icons/fa'; // Importing icons from react-icons
 
 const Header = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -29,13 +30,25 @@ const Header = () => {
         <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNavAltMarkup">
           <ul className="navbar-nav ml-auto"> {/* Changed ml-auto */}
             <li className="nav-item">
-              <Link to="/" className="nav-link text-danger" onClick={handleNavCollapse}>Home</Link>
+              <Link to="/" className="nav-link text-danger" onClick={handleNavCollapse}>
+                <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                  <FaHome style={{ marginRight: '5px' }} /> Home
+                </span>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link text-danger" onClick={handleNavCollapse}>About Us</Link>
+              <Link to="/about" className="nav-link text-danger" onClick={handleNavCollapse}>
+                <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                  <FaInfoCircle style={{ marginRight: '5px' }} /> About Us
+                </span>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link text-danger" onClick={handleNavCollapse}>Contact Us</Link>
+              <Link to="/contact" className="nav-link text-danger" onClick={handleNavCollapse}>
+                <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                  <FaAddressBook style={{ marginRight: '5px' }} /> Contact Us
+                </span>
+              </Link>
             </li>
           </ul>
         </div>
