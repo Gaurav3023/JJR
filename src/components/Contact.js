@@ -1,10 +1,12 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaInstagram, FaThreads } from 'react-icons/fa6';
+import { FaPhone, FaEnvelope, FaInstagram, FaThreads, FaAddressBook } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
     <div className="container py-5">
       <div className="text-center mb-5">
+      <FaAddressBook className="mb-3 text-danger" style={{ fontSize: '3rem' }} /> {/* Add FaAddressBook icon */}
+
         <h1 className="text-danger"><strong>Contact Us</strong></h1>
         <p className="lead">
           We’d love to hear from you! Whether you have a question about our services or want to discuss your project, our team is here to help.
@@ -22,7 +24,7 @@ const Contact = () => {
               <li className="mb-4 d-flex align-items-center">
                 <FaEnvelope className="me-3" style={{ fontSize: '1.5rem', color: '#D44638' }} />
                 <span className="fs-5"><strong>Email:</strong></span>
-                <a href="mailto:example@example.com" className="ms-2 fs-5 text-decoration-none" style={{ color: '#FF0000' }}>example@example.com</a>
+                <a href="mailto:info@jjrconstruction.com" className="ms-2 fs-5 text-decoration-none" style={{ color: '#FF0000' }}>info@jjrconstruction.com</a>
               </li>
               <li className="mb-4 d-flex align-items-center">
                 <FaInstagram className="me-3" style={{ fontSize: '1.5rem', color: '#C13584' }} />
